@@ -219,12 +219,11 @@ h1 {
 
 .footer {
     width: 100%;
-    display: block;
-    overflow: hidden;
-    padding: 35px 0;
-    box-sizing: border-box;
-    background-color: white;
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
 }
 
 .inner_footer {

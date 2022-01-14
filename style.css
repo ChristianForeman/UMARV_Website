@@ -13,6 +13,18 @@ body {
     font-size: 18px;
 }
 
+h2 {
+    font-size: 34px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
 .container {
     width: 90%;
     margin: 0 auto;
@@ -164,8 +176,8 @@ h1 {
     gap: 50px;
 }
 
-.block_item {
-    font-size: 26px;   
+.block_item {   
+    font-size: 24px;
     text-align: center;
     align-self: center;
     flex-basis: 200px;
@@ -215,6 +227,13 @@ h1 {
     align-items: baseline;
 }
 
+.large_font {
+    font-size: 26px;
+}
+
+.main_block .small_font {
+    font-size: 20px;
+}
 
 
 .footer {

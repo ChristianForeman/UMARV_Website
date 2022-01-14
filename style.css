@@ -101,7 +101,7 @@ nav a:hover::before {
 .spanning {
     display: block;
     width: 100%;
-    height: 400px;
+    height: auto;
     color: black;
 }
 
@@ -143,55 +143,79 @@ h1 {
 
 .shrink {
     width: 80%;
+    max-width: 850px;
 }
 
 .center {
     margin: auto;
 }
 
-.content {
-    padding-top: 10px;
-    border: 3px solid yellow;
-}
-
-.description {
-    border: 3px solid red;
-    width: 48%;
-    float: left;
-    height: 100%;
-    display: block;
-    max-height: 250px;
-    min-width: 200px;
-}
-
-.what_do p {
-    padding-top: 60px;
-    float: right;
-    border: 3px solid blue;
-    width: 60%;
-    min-width: 100px;
-}
-
-.page_img {
-    border: 3px solid red;
-    text-align: center;
-    float: right;
-    width: 48%;
-    height: 100%;
-    display: block;
-}
-
-.page_img img {
-    float: left;
-    border: 3px solid blue;
-    min-height: 175px;
-    width: 50%;
-    height: 100%;
-}
-
 .rounded_corners {
     border-radius: 60px;
 }
+
+.main_block {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 50px;
+}
+
+.block_item {
+    font-size: 26px;   
+    text-align: center;
+    align-self: center;
+    flex-basis: 200px;
+    flex-grow: 2;
+    object-fit: contain;
+}
+
+.block_item .left_align {
+    text-align: left;
+}
+
+.block_image {
+    text-align: left;
+    min-width: 350px;
+    max-width: 400px;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.block_image_mich {
+    text-align: left;
+    min-width: 550px;
+    max-width: 600px;
+    width: 100%;
+
+}
+
+.vertical_padding {
+    padding-top: 20px;
+}
+
+.button {
+    background-color: #222;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .sponsor_main {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
 
 .footer {
     width: 100%;
@@ -200,10 +224,12 @@ h1 {
     padding: 35px 0;
     box-sizing: border-box;
     background-color: white;
+    
 }
 
 .inner_footer {
     display: block;
+    
     margin: 0 auto;
     width: 1100px;
     height: 100%;

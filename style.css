@@ -167,7 +167,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
-    gap: 50px;
+    gap: 6%;
 }
 
 .block_item {   

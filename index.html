@@ -11,14 +11,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="Favicon.ico">
   </head>
 
-  <body onload="showAlert()">
+  <body>
 	  <header>
       <div class="container">
 
-          <img src="assets/branding/ARVLogo_Color.png" alt="logo" class="logo">
-          <img src="assets/branding/arv_Vertical.png" alt="logo" class="logoText">
+          <div>
+            <img src="assets/branding/combined.png" alt="logo" class="combined_logo">
+          </div>
 
           <nav>
               <ul>
@@ -67,6 +69,10 @@
 
         <div class="block_item left_align">
           <p>The IGV Competition tests on 3 components of our vehicle: lane following, obstacle avoidance, and GPS waypoint navigation. Here's our vehicle, GOAT doing a run on the practice course during the IGV Competition!</p>
+          <div class="vertical_padding"></div>
+          <a href="about.html">
+            <button type="button" class="button">LEARN MORE</button>
+          </a>
         </div>
       </div>
     </div>
@@ -107,7 +113,7 @@
           <img src="assets/partners/aptiv.jpg" class="block_image">
         </div>
         <div class="block_item">
-          <img src="assets/partners/michigan_engineering_v6.jpg" class="block_image_mich">
+          <img src="assets/partners/michigan_engineering_v6.jpg" class="block_image">
         </div>
         <div class="block_item">
           <img src="assets/partners/ford.png" class="block_image">
@@ -147,12 +153,5 @@
   </div>
 
   </body>
-
-  <script>
-    function showAlert() {
-      alert ("This website is still underdevelopment! Message Christian Foreman and he'll get it fixed right away!");
-    }
-    </script>
-
 
 </html>

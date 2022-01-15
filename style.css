@@ -14,15 +14,18 @@ body {
 }
 
 h2 {
+    font-weight: normal;
     font-size: 34px;
 }
 
 h3 {
-    font-size: 26px;
+    font-weight: normal;
+    font-size: 24px;
 }
 
 h4 {
-    font-size: 20px;
+    font-weight: normal;
+    font-size: 16px;
 }
 
 .container {
@@ -127,15 +130,6 @@ nav a:hover::before {
     width: 100%;
 }
 
-.what_do {
-    width: 80%;
-    display: block;
-    overflow: hidden;
-    padding-top: 20px;
-    box-sizing: border-box;
-    background-color: white;
-    margin: auto;
-}
 
 h1 {
     text-align: center;
@@ -213,7 +207,7 @@ h1 {
     background-color: #222;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 12px 28px;
     text-align: center;
     font-size: 26px;
   }
@@ -233,6 +227,14 @@ h1 {
 
 .main_block .small_font {
     font-size: 20px;
+}
+
+.grow {
+    flex-grow: 4;
+}
+
+.grow_shrink {
+    flex-grow: 1;
 }
 
 
